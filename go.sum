@@ -209,6 +209,8 @@ golang.org/dl v0.0.0-20200717001634-fec1f33ee347 h1:qQYtBoXnj57L4UinmXmIC0LiTfUa
 golang.org/dl v0.0.0-20200717001634-fec1f33ee347/go.mod h1:IUMfjQLJQd4UTqG1Z90tenwKoCX93Gn3MAQJMOSBsDQ=
 golang.org/dl v0.0.0-20200901180525-35ca1c5c19fb h1:i3Lsq95Zf4tds379b/rzieOgnXxZSfRIyHf+ow+s9SY=
 golang.org/dl v0.0.0-20200901180525-35ca1c5c19fb/go.mod h1:IUMfjQLJQd4UTqG1Z90tenwKoCX93Gn3MAQJMOSBsDQ=
+golang.org/dl v0.0.0-20210310182059-0efbb602dbd1 h1:yugY9ooJLcpXYmrh8pKVB0yn61qFTLVZ6H9I7+tsSyw=
+golang.org/dl v0.0.0-20210310182059-0efbb602dbd1/go.mod h1:IUMfjQLJQd4UTqG1Z90tenwKoCX93Gn3MAQJMOSBsDQ=
 golang.org/x/crypto v0.0.0-20181203042331-505ab145d0a9/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=

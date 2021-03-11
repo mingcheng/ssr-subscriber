@@ -8,7 +8,7 @@ ENV TARGET_DIR ${BUILD_DIR}
 
 COPY . ${BUILD_DIR}
 WORKDIR ${BUILD_DIR}
-RUN make clean && make build && \
+RUN make clean build && \
   	mv ${TARGET_DIR}/ssr-subscriber /usr/bin/ssr-subscriber
 
 # Stage2
@@ -16,8 +16,8 @@ FROM debian:buster
 
 ENV TZ "Asia/Shanghai"
 
-RUN sed -i 's/deb.debian.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list \
-	&& sed -i 's/security.debian.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list \
+RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
+	&& sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
 	&& echo "Asia/Shanghai" > /etc/timezone \
 	&& apt -y update \
 	&& apt -y upgrade \
